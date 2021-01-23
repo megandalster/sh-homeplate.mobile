@@ -7,4 +7,4 @@ Second Helpings database and daily schedule of pick-ups and drop-offs.
 
 The original version was developed in 2012 at Bowdoin College by 3 students and
 a professor.  The current version was developed from the original by Progressive 
-Technology, Inc from 2014-2017, and then handed over to NPFI which maintains it.
+Technology, Inc from 2014-2017, and then handed over to NPFI which maintains it now.
