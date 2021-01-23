@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/drawable-mdpi-v4/border.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/drawable-mdpi/border.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/drawable-mdpi-v4/bullet.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/drawable-mdpi/bullet.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/drawable-mdpi-v4/pencil2.jpg",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/drawable-mdpi/pencil2.jpg"
+    }
+]

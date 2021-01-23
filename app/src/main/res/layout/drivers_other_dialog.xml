@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginBottom="15dp"
+	    android:layout_marginTop="5dp"
+	    android:gravity="center"
+	    android:text="@string/driver_other_hint"
+	    android:textSize="17sp" />
+		
+		<AutoCompleteTextView
+android:id="@+id/otherDriverNameAutocompletetextview"
+android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            
+            android:inputType="text|textNoSuggestions|textMultiLine"
+            android:paddingLeft="10dp"
+            android:popupBackground="#EFEEEC"
+            android:textColor="#333333"
+            android:textColorHint="#9c9c9c"
+            android:textSize="18sp" />
+
+
+		  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/other_dialog_deny"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/other_driver_dialog_no"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/other_dialog_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/other_driver_dialog_yes"
+            android:textSize="24dp" />
+			
+		
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+			  <Button
+            android:id="@+id/other_dialog_confirm_and_another"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/other_driver_dialog_yes_and_another"
+            android:textSize="24dp" />
+		</LinearLayout>
+</LinearLayout>

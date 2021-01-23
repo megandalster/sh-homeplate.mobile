@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land/row.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/layout-land/row.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land/row_backup.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/layout-land/row_backup.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land/summary.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/layout-land/summary.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land/route.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/layout-land/route.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land/weight_breakdown.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/layout-land/weight_breakdown.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land/drivers.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/layout-land/drivers.xml"
+    }
+]

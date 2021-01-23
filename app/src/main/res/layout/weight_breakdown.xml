@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/weight_name_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:text="@string/weight_name"
+        android:maxLines="1"
+        android:textSize="35dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFF0000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="13dp"
+            android:ems="4"
+            android:text="@string/breakdown_meat"
+            android:textSize="29dp" />
+
+        <EditText
+            android:id="@+id/breakdown_meat_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:digits="0123456789"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="@string/weight_entry_hint"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:selectAllOnFocus="true"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_lbs"
+            android:textSize="29dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="13dp"
+            android:ems="4"
+            android:text="@string/breakdown_frozen"
+            android:textSize="29dp" />
+
+        <EditText
+            android:id="@+id/breakdown_frozen_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:digits="0123456789"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="@string/weight_entry_hint"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:selectAllOnFocus="true"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_lbs"
+            android:textSize="29dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="13dp"
+            android:ems="4"
+            android:text="@string/breakdown_bakery"
+            android:textSize="29dp" />
+
+        <EditText
+            android:id="@+id/breakdown_bakery_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:digits="0123456789"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="@string/weight_entry_hint"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:selectAllOnFocus="true"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_lbs"
+            android:textSize="29dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="13dp"
+            android:ems="4"
+            android:text="@string/breakdown_grocery"
+            android:textSize="29dp" />
+
+        <EditText
+            android:id="@+id/breakdown_grocery_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:digits="0123456789"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="@string/weight_entry_hint"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:selectAllOnFocus="true"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_lbs"
+            android:textSize="29dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="13dp"
+            android:ems="4"
+            android:text="@string/breakdown_dairy"
+            android:textSize="29dp" />
+
+        <EditText
+            android:id="@+id/breakdown_dairy_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:digits="0123456789"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="@string/weight_entry_hint"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:selectAllOnFocus="true"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_lbs"
+            android:textSize="29dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="13dp"
+            android:ems="4"
+            android:text="@string/breakdown_produce"
+            android:textSize="29dp" />
+
+        <EditText
+            android:id="@+id/breakdown_produce_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:digits="0123456789"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="@string/weight_entry_hint"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:selectAllOnFocus="true"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_lbs"
+            android:textSize="29dp" />
+    </LinearLayout>
+	<LinearLayout 
+    android:id="@+id/LinearLayout02" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:layout_alignParentBottom="true">
+<Button
+            android:id="@+id/record_emptyweight_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+			android:layout_marginTop="22dp"
+			android:padding="10dp"
+			android:textSize="22dp"
+			android:layout_weight="1"
+            android:background="@android:color/holo_red_light"
+            android:onClick="recordNoItems"
+            
+            android:text="@string/weight_submit_empty_1"
+            android:textColor="@android:color/white"
+             />
+			
+    <Button
+		android:id="@+id/record_weight_button"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+			android:layout_marginTop="22dp"
+			android:padding="10dp"
+			android:textSize="22dp"
+			android:layout_weight="1"
+			android:layout_marginLeft="10dp"
+			android:background="@android:color/holo_red_light"
+			android:textColor="@android:color/white"
+        android:onClick="recordWeightBreakdown"
+        android:text="@string/weight_submit_1" />
+		
+	 <Button
+            android:id="@+id/empty_truck_button"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+			android:layout_marginTop="22dp"
+			android:padding="10dp"
+			android:textSize="22dp"
+			android:layout_weight="1"
+			android:layout_marginLeft="10dp"
+            android:background="@android:color/holo_red_light"
+            android:onClick="emptyTheTruck"
+            
+            android:text="@string/weight_empty_truck"
+            android:textColor="@android:color/white"
+            
+            android:visibility="gone" />
+
+		</LinearLayout>
+
+    <RelativeLayout android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Button
+            android:id="@+id/weight_total_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_bright"
+            android:padding="6dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/weight_total_button"
+            android:textColor="@android:color/black"
+            android:textSize="27dp"
+            android:layout_centerInParent="true"
+            android:onClick="switchEntryMode"
+            />
+    </RelativeLayout>
+
+			
+</LinearLayout>

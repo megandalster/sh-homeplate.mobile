@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/area_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/area_name"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/driver_hint"
+        android:textSize="37dp" />
+
+    <ListView
+        android:id="@+id/driver_list"
+        android:layout_width="wrap_content"
+        android:layout_height="700dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginRight="156dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center_horizontal"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="8dp"
+        android:textSize="30dp" 
+		android:clickable="true"
+android:descendantFocusability="beforeDescendants"
+		 />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="19dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="scrollUp"
+            android:text="@string/scroll_up"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="scrollDown"
+            android:text="@string/scroll_down"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:onClick="routeScreenLaunch"
+            android:padding="24dp"
+            android:text="@string/driver_next_button"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

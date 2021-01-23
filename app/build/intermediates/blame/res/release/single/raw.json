@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/raw/rooster.mp3",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/raw/rooster.mp3"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/raw/lion.mp3",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/raw/lion.mp3"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/raw/squeal.mp3",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/raw/squeal.mp3"
+    }
+]

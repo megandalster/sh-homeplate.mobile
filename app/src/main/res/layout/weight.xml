@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp" >
+
+    <TextView
+        android:id="@+id/weight_name_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+		android:maxLines="1"
+        android:text="@string/weight_name"
+        android:textSize="35dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFFF0000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="@string/weight_hint"
+            android:textSize="29dp" />
+
+        <EditText
+            android:id="@+id/weight_entry_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/border"
+            android:digits="0123456789"
+            android:ems="4"
+            android:gravity="center"
+            android:hint="@string/weight_entry_hint"
+            android:inputType="phone"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_lbs"
+            android:textSize="29dp" />
+    </LinearLayout>
+
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/tableLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TableRow
+			android:id="@+id/tableRow1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:paddingTop="10dp" >
+
+			<Button
+				android:id="@+id/record_weight_button"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="12dp"
+				android:padding="10dp"
+				android:textSize="22dp"
+				android:background="@android:color/holo_purple"
+				android:onClick="recordWeight"
+				android:text="@string/weight_submit_1"
+				android:textColor="@android:color/white" />
+
+			<Button
+				android:id="@+id/record_emptyweight_button"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="12dp"
+				android:padding="10dp"
+				android:textSize="22dp"
+
+				android:layout_marginLeft="10dp"
+				android:background="@android:color/holo_red_light"
+				android:onClick="recordNoItems"
+				android:text="@string/weight_submit_empty_1"
+				android:textColor="@android:color/white" />
+
+			</TableRow>
+
+	<TableRow
+		android:id="@+id/tableRow2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:paddingTop="10dp" >
+
+
+		<Button
+			android:id="@+id/weight_breakdown_button"
+
+			android:background="@android:color/holo_blue_bright"
+			android:text="@string/weight_breakdown_button"
+			android:textColor="@android:color/black"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="12dp"
+			android:padding="10dp"
+			android:textSize="22dp"
+			android:onClick="switchEntryMode"
+			/>
+
+		<Button
+			android:id="@+id/empty_truck_button"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="12dp"
+			android:padding="10dp"
+			android:textSize="22dp"
+			android:background="@android:color/holo_red_light"
+			android:layout_marginLeft="10dp"
+			android:onClick="emptyTheTruck"
+
+			android:text="@string/weight_empty_truck"
+			android:textColor="@android:color/white"
+			android:visibility="gone"
+		/>
+
+		</TableRow>
+	</TableLayout>
+
+
+           </LinearLayout>
+
+

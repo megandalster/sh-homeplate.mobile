@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp" >
+
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+		 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/new_stop_q1"
+        android:textSize="33dp" />
+
+    <RadioGroup
+        android:id="@+id/radioStopType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioStopPickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/new_stop_pickup"
+            android:textSize="27dp"
+android:onClick="onRadioButtonClicked"		/>
+
+        <RadioButton
+            android:id="@+id/radioStopDropoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="@string/new_stop_dropoff"
+            android:textSize="27dp"
+android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
+	</LinearLayout>
+	
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+      
+	   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/new_stop_q2"
+        android:textSize="33dp" />
+		
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+		 android:layout_marginLeft="40dp"
+        android:text="@string/new_stop_edithint"
+        android:textSize="15dp" />
+
+    </LinearLayout>
+	
+		
+			<AutoCompleteTextView
+android:id="@+id/newStopNameAutocompletetextview"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="" >
+</AutoCompleteTextView>
+
+	
+
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" 
+		 android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="37dp"
+            android:background="#FFAF0000"
+            android:onClick="cancelCreateStop"
+            android:padding="8dp"
+            android:text="@string/new_stop_cancel_button"
+            android:textColor="#FFFFFFFF"
+            android:textSize="29dp" 
+			android:layout_gravity="center_horizontal"
+			android:layout_centerInParent="true">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#FF0000AF"
+            android:onClick="confirmCreateStop"
+            android:padding="8dp"
+            android:text="@string/new_stop_create_button"
+            android:textColor="#FFFFFFFF"
+            android:textSize="29dp" 
+			android:layout_gravity="center_horizontal"
+			android:layout_centerInParent="true">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

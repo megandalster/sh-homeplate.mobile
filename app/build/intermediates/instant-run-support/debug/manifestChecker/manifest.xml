@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.sh.homeplate.mobile"
+    android:versionCode="1"
+    android:versionName="1.7" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="org.sh.homeplate.mobile.RouteControl"
+        android:debuggable="true"
+        android:icon="@drawable/homeplate"
+        android:label="@string/homeplate"
+        android:testOnly="true"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="org.sh.homeplate.mobile.Welcome"
+            android:label="@string/homeplate" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.sh.homeplate.mobile.DriverSelect"
+            android:label="@string/homeplate" />
+        <activity
+            android:name="org.sh.homeplate.mobile.RouteView"
+            android:label="@string/homeplate" />
+        <activity
+            android:name="org.sh.homeplate.mobile.Summary"
+            android:label="@string/homeplate" />
+        <activity
+            android:name="org.sh.homeplate.mobile.Weight"
+            android:label="@string/weight_entry_label"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity
+            android:name="org.sh.homeplate.mobile.CreateStop"
+            android:label="@string/label_new_stop"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="org.sh.homeplate.mobile.SignOff"
+            android:label="@string/homeplate"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="org.sh.homeplate.mobile.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

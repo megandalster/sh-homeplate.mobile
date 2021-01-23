@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a1c21821eb639a09e029e5005a1ea298ab596ef5">
+        <dex dex="/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f172e1ed19a031e096172c7dabeeafbfe0337b10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="939012376cde2a75f3c199f6cca61b24e61947f8">
+        <dex dex="/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_893fabea0880bdf9e46aa5453ccd4b6751e93ed4/classes.dex" />
+    </item>
+
+</items>

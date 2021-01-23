@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/menu/refresh.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/menu/refresh.xml"
+    },
+    {
+        "merged": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/build/intermediates/res/merged/release/menu/ftp_sync.xml",
+        "source": "/Users/macmini/Documents/Parallels/PAS/HomePlate/HomePlateMigrated/app/src/main/res/menu/ftp_sync.xml"
+    }
+]

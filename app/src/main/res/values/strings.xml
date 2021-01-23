@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="homeplate">Homeplate</string>
+    <string name="date_today">Today is</string>
+    <string name="welcome_msg">Welcome to Second Helpings!</string>
+    <string name="welcome_hint">Where are you working today?</string>
+    <string name="welcome_start_button">Continue</string>
+    <string name="area_hhi">Hilton Head</string>
+    <string name="area_bft">Beaufort</string>
+    <string name="area_sun">Bluffton</string>
+    <string name="driver_screen">Driver ID Screen</string>
+
+    <string name="area_name">[ Base ]</string>
+    <string name="driver_hint">Scroll through and check the names of the people on board</string>
+    <string name="driver_next_button">Tap to begin route!</string>
+    <string name="route_view">Route Screen</string>
+    <string name="route_hint">Tap a pickup to enter weight</string>
+    <string name="unlisted_stop_button">Create Unlisted Stop</string>
+    <string name="total_weight"><b>Total Pickup Weight : 715 lbs</b></string>
+    <string name="pickups_to_dropoffs">Drop offs</string>
+    <string name="route_finish">Route Complete</string>
+
+    <string name="thank_you">Thank you for volunteering today!</string>
+    <string name="new_stop_tease">New Stop screen - UNDER CONSTRUCTION!</string>
+    <string name="weight_name">Atlantic Bread</string>
+    <string name="weight_hint">Enter total weight :</string>
+    <string name="weight_entry_hint">0</string>
+    <string name="weight_lbs">lbs</string>
+    <string name="weight_submit_1">Record the weight!</string>
+    <string name="weight_entry_label">Enter the weight!</string>
+
+    <string name="weight_submit_empty_1">No items</string>
+
+    <string name="new_stop_q1">What kind of stop is this?</string>
+    <string name="new_stop_q2">Enter a name for this stop</string>
+    <string name="new_stop_q3">What kind of weight will be recorded?</string>
+    <string name="new_stop_create_button">Record this stop!</string>
+    <string name="new_stop_pickup">Pickup</string>
+    <string name="new_stop_dropoff">Drop off</string>
+    <string name="new_stop_name">Stop Name :</string>
+    <string name="new_stop_total">Total weight only</string>
+    <string name="new_stop_breakdown">Weight breakdown (Meat, Deli, Bakery, etc.)</string>
+    <string name="new_stop_edithint">I.e., Walmart at Hilton Head</string>
+    <string name="new_stop_cancel_button">Cancel</string>
+    <string name="label_new_stop">Stop Creation Form</string>
+    <string name="new_stop_dialog_yes">Yup!</string>
+    <string name="new_stop_dialog_no">No, keep editing</string>
+    <string name="new_stop_dialog_question">Is this information correct?</string>
+    <string name="scroll_up">Scroll Up</string>
+    <string name="scroll_down">Scroll Down</string>
+    <string name="breakdown_meat">Meat</string>
+    <string name="breakdown_frozen">Deli</string>
+    <string name="breakdown_bakery">Bakery</string>
+    <string name="breakdown_grocery">Grocery</string>
+    <string name="breakdown_dairy">Dairy</string>
+    <string name="breakdown_produce">Produce</string>
+    <string name="route_summary">Route Summary</string>
+    <string name="weight_empty_truck">Tap here if last stop!</string>
+    <string name="report_total_pickup_weight">Total weight picked up today:</string>
+    <string name="report_total_dropoff_weight">Total weight dropped off today:</string>
+    <string name="report_finish">Done</string>
+    <string name="complete_day">Done</string>
+    <string name="report_pickup_text">Pickups</string>
+    <string name="report_dropoff_text">Drop offs</string>
+    <string name="andftp_hint">Wi-fi sync</string>
+    <string name="andftp_hint2">Refresh</string>
+    <string name="empty_truck_hint">Empty the truck!</string>
+    <string name="signoff_reminder">When done with run, press tablet On/Off button until Power Off option shows, tap it, and tap OK.  Then stow tablet out of sight.</string>
+    <string name="driver_other_hint">Enter a name for the \'Other\' driver.</string>
+    <string name="other_driver_dialog_no">Cancel</string>
+    <string name="other_driver_dialog_yes">Done</string>
+    <string name="other_driver_dialog_yes_and_another">Done and Add Another</string>
+    <string name="weight_breakdown_button">Enter as breakdown</string>
+    <string name="weight_total_button">Enter Total Weight</string>
+</resources>

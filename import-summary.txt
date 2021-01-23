@@ -1,0 +1,900 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .metadata/
+* .metadata/.bak_0.log
+* .metadata/.bak_1.log
+* .metadata/.bak_2.log
+* .metadata/.bak_3.log
+* .metadata/.bak_4.log
+* .metadata/.bak_5.log
+* .metadata/.bak_6.log
+* .metadata/.bak_7.log
+* .metadata/.bak_8.log
+* .metadata/.bak_9.log
+* .metadata/.lock
+* .metadata/.log
+* .metadata/.mylyn/
+* .metadata/.mylyn/repositories.xml.zip
+* .metadata/.plugins/
+* .metadata/.plugins/com.android.ide.eclipse.adt/
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/AnalogClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/AutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Button.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/CalendarView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/CheckBox.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/CheckedTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Date.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/DigitalClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Email.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ExpandableListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/LargeText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/MediumText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/MultiAutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/MultilineText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Number.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/NumberDecimal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/NumberSigned.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Password.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PasswordNumeric.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PersonName.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Phone.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PlainText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PostalAddress.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarHorizontal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarLarge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarNormal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarSmall.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/QuickContactBadge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/RadioButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/RadioGroup.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/RatingBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/SeekBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/SmallButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/SmallText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Spinner.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Switch.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/TabHost.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/TabWidget.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/TextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Time.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ToggleButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ZoomButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ZoomControls.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/preview.properties
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/AnalogClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/AutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Button.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/CalendarView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/CheckBox.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/CheckedTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Date.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/DigitalClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Email.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ExpandableListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/LargeText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/MediumText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/MultiAutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/MultilineText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Number.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/NumberDecimal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/NumberSigned.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Password.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/PasswordNumeric.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/PersonName.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Phone.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/PlainText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/PostalAddress.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ProgressBarHorizontal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ProgressBarLarge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ProgressBarNormal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ProgressBarSmall.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/QuickContactBadge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/RadioButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/RadioGroup.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/RatingBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/SeekBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/SmallButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/SmallText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Spinner.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Switch.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/TabHost.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/TabWidget.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/TextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/Time.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ToggleButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ZoomButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/ZoomControls.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-37inwvganexusone/preview.properties
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/AnalogClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/AutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Button.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/CalendarView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/CheckBox.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/CheckedTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Date.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/DigitalClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Email.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ExpandableListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/LargeText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/MediumText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/MultiAutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/MultilineText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Number.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/NumberDecimal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/NumberSigned.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Password.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/PasswordNumeric.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/PersonName.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Phone.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/PlainText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/PostalAddress.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ProgressBarHorizontal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ProgressBarLarge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ProgressBarNormal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ProgressBarSmall.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/QuickContactBadge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/RadioButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/RadioGroup.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/RatingBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/SeekBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/SmallButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/SmallText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Spinner.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Switch.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/TabHost.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/TabWidget.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/TextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/Time.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ToggleButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ZoomButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/ZoomControls.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololight-nexus10/preview.properties
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/AnalogClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/AutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Button.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/CalendarView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/CheckBox.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/CheckedTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Date.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/DigitalClock.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Email.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ExpandableListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/LargeText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ListView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/MediumText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/MultiAutoCompleteTextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/MultilineText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Number.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/NumberDecimal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/NumberSigned.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Password.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/PasswordNumeric.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/PersonName.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Phone.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/PlainText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/PostalAddress.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ProgressBarHorizontal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ProgressBarLarge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ProgressBarNormal.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ProgressBarSmall.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/QuickContactBadge.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/RadioButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/RadioGroup.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/RatingBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/SeekBar.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/SmallButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/SmallText.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Spinner.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Switch.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/TabHost.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/TabWidget.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/TextView.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/Time.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ToggleButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ZoomButton.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/ZoomControls.png
+* .metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-hololightdialog-37inwvganexusone/preview.properties
+* .metadata/.plugins/org.eclipse.cdt.core/
+* .metadata/.plugins/org.eclipse.cdt.core/.log
+* .metadata/.plugins/org.eclipse.cdt.make.core/
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+* .metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
+* .metadata/.plugins/org.eclipse.core.resources/
+* .metadata/.plugins/org.eclipse.core.resources/.history/
+* .metadata/.plugins/org.eclipse.core.resources/.history/14/
+* .metadata/.plugins/org.eclipse.core.resources/.history/14/406fb6f34b84001315888ed888b0c8e3
+* .metadata/.plugins/org.eclipse.core.resources/.history/17/
+* .metadata/.plugins/org.eclipse.core.resources/.history/17/905f62f9fa6500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/20/
+* .metadata/.plugins/org.eclipse.core.resources/.history/20/b0f53ed37c9000131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/23/
+* .metadata/.plugins/org.eclipse.core.resources/.history/23/a0127ac6076600131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/2d/
+* .metadata/.plugins/org.eclipse.core.resources/.history/2d/c03f215b5a94001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/34/
+* .metadata/.plugins/org.eclipse.core.resources/.history/34/40d01ef95ba500131114c08425788af6
+* .metadata/.plugins/org.eclipse.core.resources/.history/3b/
+* .metadata/.plugins/org.eclipse.core.resources/.history/3b/90f848d8579100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/3e/
+* .metadata/.plugins/org.eclipse.core.resources/.history/3e/c070abd2579100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/41/
+* .metadata/.plugins/org.eclipse.core.resources/.history/41/f034948a409100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/42/
+* .metadata/.plugins/org.eclipse.core.resources/.history/42/c021ecb7f76500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/46/
+* .metadata/.plugins/org.eclipse.core.resources/.history/46/50dc006c586500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/4d/
+* .metadata/.plugins/org.eclipse.core.resources/.history/4d/20c774665ea30014197ef95e44170b07
+* .metadata/.plugins/org.eclipse.core.resources/.history/4f/
+* .metadata/.plugins/org.eclipse.core.resources/.history/4f/106edf74476500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/60/
+* .metadata/.plugins/org.eclipse.core.resources/.history/60/80dbae1b3d6600141eb4e1e177582bc5
+* .metadata/.plugins/org.eclipse.core.resources/.history/6b/
+* .metadata/.plugins/org.eclipse.core.resources/.history/6b/506a89b0f76500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/6b/c0ab2eff4784001315888ed888b0c8e3
+* .metadata/.plugins/org.eclipse.core.resources/.history/6c/
+* .metadata/.plugins/org.eclipse.core.resources/.history/6c/b0d79e91066600131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/6d/
+* .metadata/.plugins/org.eclipse.core.resources/.history/6d/10c0bbcb4f9100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/6e/
+* .metadata/.plugins/org.eclipse.core.resources/.history/6e/009ac444496500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/70/
+* .metadata/.plugins/org.eclipse.core.resources/.history/70/b0e304b8569100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/78/
+* .metadata/.plugins/org.eclipse.core.resources/.history/78/00bae6cc5994001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/79/
+* .metadata/.plugins/org.eclipse.core.resources/.history/79/10c82c635ea30014197ef95e44170b07
+* .metadata/.plugins/org.eclipse.core.resources/.history/7b/
+* .metadata/.plugins/org.eclipse.core.resources/.history/7b/f02381975994001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/7f/
+* .metadata/.plugins/org.eclipse.core.resources/.history/7f/f00d40cf3c6600141eb4e1e177582bc5
+* .metadata/.plugins/org.eclipse.core.resources/.history/85/
+* .metadata/.plugins/org.eclipse.core.resources/.history/85/2079f7a05994001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/86/
+* .metadata/.plugins/org.eclipse.core.resources/.history/86/90eba4be4f9100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/87/
+* .metadata/.plugins/org.eclipse.core.resources/.history/87/d0e6097bfb6500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/98/
+* .metadata/.plugins/org.eclipse.core.resources/.history/98/a0b5894c639a00131e25d0b828fb33c5
+* .metadata/.plugins/org.eclipse.core.resources/.history/99/
+* .metadata/.plugins/org.eclipse.core.resources/.history/99/409c30b15994001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/99/40d6de40f76500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/9e/
+* .metadata/.plugins/org.eclipse.core.resources/.history/9e/30c3a3264e9100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/a4/
+* .metadata/.plugins/org.eclipse.core.resources/.history/a4/b0cf557d586500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/ae/
+* .metadata/.plugins/org.eclipse.core.resources/.history/ae/10c07a66799000131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/af/
+* .metadata/.plugins/org.eclipse.core.resources/.history/af/4058c959f46500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/b1/
+* .metadata/.plugins/org.eclipse.core.resources/.history/b1/006d6b715a94001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/b4/
+* .metadata/.plugins/org.eclipse.core.resources/.history/b4/20ef6aaefc5e00131aef813dd7880ebc
+* .metadata/.plugins/org.eclipse.core.resources/.history/bb/
+* .metadata/.plugins/org.eclipse.core.resources/.history/bb/b0cd768b076600131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/c0/
+* .metadata/.plugins/org.eclipse.core.resources/.history/c0/a023b7ce7c9000131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/c5/
+* .metadata/.plugins/org.eclipse.core.resources/.history/c5/c078cfb55994001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/c6/
+* .metadata/.plugins/org.eclipse.core.resources/.history/c6/7064036f7a9000131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/ce/
+* .metadata/.plugins/org.eclipse.core.resources/.history/ce/3043caf45ba500131114c08425788af6
+* .metadata/.plugins/org.eclipse.core.resources/.history/eb/
+* .metadata/.plugins/org.eclipse.core.resources/.history/eb/40ae6daefc5e00131aef813dd7880ebc
+* .metadata/.plugins/org.eclipse.core.resources/.history/eb/70236eaefc5e00131aef813dd7880ebc
+* .metadata/.plugins/org.eclipse.core.resources/.history/ec/
+* .metadata/.plugins/org.eclipse.core.resources/.history/ec/70d52a6cfb6500131d98f5a834652fd6
+* .metadata/.plugins/org.eclipse.core.resources/.history/f0/
+* .metadata/.plugins/org.eclipse.core.resources/.history/f0/d0040e655794001311508225a50b1f59
+* .metadata/.plugins/org.eclipse.core.resources/.history/f1/
+* .metadata/.plugins/org.eclipse.core.resources/.history/f1/3096b1d04f9100131dd5af2c87cbc427
+* .metadata/.plugins/org.eclipse.core.resources/.history/f4/
+* .metadata/.plugins/org.eclipse.core.resources/.history/f4/30a7fab04a84001315888ed888b0c8e3
+* .metadata/.plugins/org.eclipse.core.resources/.projects/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/5f/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/5f/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/61/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/61/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/62/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/62/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/ae/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/ae/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/d6/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/d6/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/de/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/a0/de/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/.markers
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/Homeplate Mobile/org.eclipse.jdt.core/state.dat
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/17/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/17/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/62/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/62/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/d6/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/d6/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/de/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/a0/de/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.location
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/.markers
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/1.tree
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/OCRTest/org.eclipse.jdt.core/state.dat
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/5f/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/5f/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/66/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/66/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/cd/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/cd/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/d6/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/d6/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/de/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/de/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/eb/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/eb/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/ee/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/a0/ee/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.location
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/.markers
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/SimpleOCR/org.eclipse.jdt.core/state.dat
+* .metadata/.plugins/org.eclipse.core.resources/.projects/tesseract-android-tools/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/tesseract-android-tools/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.projects/tesseract-android-tools/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.projects/tesseract-android-tools/.location
+* .metadata/.plugins/org.eclipse.core.resources/.projects/tesseract-android-tools/.markers
+* .metadata/.plugins/org.eclipse.core.resources/.root/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+* .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+* .metadata/.plugins/org.eclipse.core.resources/.root/37.tree
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/
+* .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+* .metadata/.plugins/org.eclipse.core.runtime/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.ddms.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.debug.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.net.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.recording.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.search.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+* .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs
+* .metadata/.plugins/org.eclipse.debug.core/
+* .metadata/.plugins/org.eclipse.debug.core/.launches/
+* .metadata/.plugins/org.eclipse.debug.core/.launches/Homeplate Mobile.launch
+* .metadata/.plugins/org.eclipse.debug.core/.launches/OCRTest.launch
+* .metadata/.plugins/org.eclipse.debug.core/.launches/SimpleOCR.launch
+* .metadata/.plugins/org.eclipse.debug.ui/
+* .metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+* .metadata/.plugins/org.eclipse.e4.workbench/
+* .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+* .metadata/.plugins/org.eclipse.epp.usagedata.recording/
+* .metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv
+* .metadata/.plugins/org.eclipse.equinox.p2.ui/
+* .metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.jdt.core/
+* .metadata/.plugins/org.eclipse.jdt.core/1166373947.index
+* .metadata/.plugins/org.eclipse.jdt.core/1175208353.index
+* .metadata/.plugins/org.eclipse.jdt.core/1347916777.index
+* .metadata/.plugins/org.eclipse.jdt.core/1384653652.index
+* .metadata/.plugins/org.eclipse.jdt.core/2684501728.index
+* .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+* .metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt
+* .metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache
+* .metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+* .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+* .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+* .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+* .metadata/.plugins/org.eclipse.jdt.debug.ui/
+* .metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.jdt.launching/
+* .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+* .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/
+* .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+* .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/SimpleOCR/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/SimpleOCR/2014/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/SimpleOCR/2014/12/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/SimpleOCR/2014/12/52/
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/SimpleOCR/2014/12/52/refactorings.history
+* .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/SimpleOCR/2014/12/52/refactorings.index
+* .metadata/.plugins/org.eclipse.m2e.logback.configuration/
+* .metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.0.200.20111228-1245.xml
+* .metadata/.plugins/org.eclipse.pde.core/
+* .metadata/.plugins/org.eclipse.pde.core/.cache/
+* .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+* .metadata/.plugins/org.eclipse.search/
+* .metadata/.plugins/org.eclipse.search/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.editors/
+* .metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.ide/
+* .metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench.texteditor/
+* .metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/
+* .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/workbench.xml
+* .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+* .metadata/.plugins/org.eclipse.wb.discovery.core/
+* .metadata/.plugins/org.eclipse.wb.discovery.core/toolkit_gwt.png
+* .metadata/.plugins/org.eclipse.wb.discovery.core/toolkit_swing.png
+* .metadata/.plugins/org.eclipse.wb.discovery.core/toolkit_swt.png
+* .metadata/.plugins/org.eclipse.wb.discovery.core/toolkit_xwt.png
+* .metadata/.plugins/org.eclipse.wb.discovery.core/toolkits.xml
+* .metadata/.plugins/org.eclipse.wst.sse.core/
+* .metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+* .metadata/.plugins/org.eclipse.wst.sse.ui/
+* .metadata/.plugins/org.eclipse.wst.sse.ui/dialog_settings.xml
+* .metadata/.plugins/org.eclipse.wst.xml.core/
+* .metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml
+* .metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml
+* .metadata/version.ini
+* Homeplate Mobile/
+* Homeplate Mobile/.DS_Store
+* Homeplate Mobile/.classpath
+* Homeplate Mobile/.hg/
+* Homeplate Mobile/.hg/00changelog.i
+* Homeplate Mobile/.hg/branch
+* Homeplate Mobile/.hg/cache/
+* Homeplate Mobile/.hg/cache/branchheads-served
+* Homeplate Mobile/.hg/cache/tags
+* Homeplate Mobile/.hg/dirstate
+* Homeplate Mobile/.hg/hgrc
+* Homeplate Mobile/.hg/requires
+* Homeplate Mobile/.hg/store/
+* Homeplate Mobile/.hg/store/00changelog.i
+* Homeplate Mobile/.hg/store/00manifest.i
+* Homeplate Mobile/.hg/store/data/
+* Homeplate Mobile/.hg/store/data/_android_manifest.xml.i
+* Homeplate Mobile/.hg/store/data/bin/
+* Homeplate Mobile/.hg/store/data/bin/_homeplate _mobile.apk.d
+* Homeplate Mobile/.hg/store/data/bin/_homeplate _mobile.apk.i
+* Homeplate Mobile/.hg/store/data/bin/classes.dex.d
+* Homeplate Mobile/.hg/store/data/bin/classes.dex.i
+* Homeplate Mobile/.hg/store/data/bin/classes/
+* Homeplate Mobile/.hg/store/data/bin/classes/org/
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/data/
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/data/_route.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/data/_stop.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_build_config.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_create_stop$1.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_create_stop$2.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_create_stop.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_driver_select$1.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_driver_select$_driver.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_driver_select$_driver_array_adapter$1.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_driver_select$_driver_array_adapter.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_driver_select$_driver_view_holder.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_driver_select.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_homeplate_mobile_activity.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_r$array.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_r$attr.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_r$drawable.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_r$id.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_r$layout.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_r$string.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_r.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_route_control.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_route_view$1.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_route_view$2.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_route_view$3.class.i
+* Homeplate Mobile/.hg/store/data/bin/classes/org/sh/homeplate/mobile/_route_view.class.i
+* Homeplate Mobile/.hg/store/data/bin/jarlist.cache.i
+* Homeplate Mobile/.hg/store/data/bin/res/
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-hdpi/
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-hdpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-ldpi/
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-ldpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/down.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/homeplate.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/pen.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/pencil.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/sync.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/sync2.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-mdpi/up.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-xhdpi/
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-xhdpi/homeplate.png.i
+* Homeplate Mobile/.hg/store/data/bin/res/drawable-xhdpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/bin/resources.ap__.d
+* Homeplate Mobile/.hg/store/data/bin/resources.ap__.i
+* Homeplate Mobile/.hg/store/data/bin/~2e_d_s___store.i
+* Homeplate Mobile/.hg/store/data/gen/
+* Homeplate Mobile/.hg/store/data/gen/org/
+* Homeplate Mobile/.hg/store/data/gen/org/sh/
+* Homeplate Mobile/.hg/store/data/gen/org/sh/homeplate/
+* Homeplate Mobile/.hg/store/data/gen/org/sh/homeplate/mobile/
+* Homeplate Mobile/.hg/store/data/gen/org/sh/homeplate/mobile/_build_config.java.i
+* Homeplate Mobile/.hg/store/data/gen/org/sh/homeplate/mobile/_r.java.i
+* Homeplate Mobile/.hg/store/data/proguard-project.txt.i
+* Homeplate Mobile/.hg/store/data/project.properties.i
+* Homeplate Mobile/.hg/store/data/res/
+* Homeplate Mobile/.hg/store/data/res/drawable-hdpi/
+* Homeplate Mobile/.hg/store/data/res/drawable-hdpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-ldpi/
+* Homeplate Mobile/.hg/store/data/res/drawable-ldpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/border.xml.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/bullet.xml.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/down.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/homeplate.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/pen.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/pencil.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/pencil2.jpg.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/sync.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/sync2.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-mdpi/up.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-xhdpi/
+* Homeplate Mobile/.hg/store/data/res/drawable-xhdpi/homeplate.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-xhdpi/ic__launcher.png.i
+* Homeplate Mobile/.hg/store/data/res/drawable-xhdpi/~2e_d_s___store.i
+* Homeplate Mobile/.hg/store/data/res/drawable/
+* Homeplate Mobile/.hg/store/data/res/drawable/button.xml.i
+* Homeplate Mobile/.hg/store/data/res/drawable/button__pressed.xml.i
+* Homeplate Mobile/.hg/store/data/res/drawable/button__selector.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout-land/
+* Homeplate Mobile/.hg/store/data/res/layout-land/drivers.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout-land/route.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout-land/row.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout-land/row1.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout-land/row__backup.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout-land/summary.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout-land/weight__breakdown.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/
+* Homeplate Mobile/.hg/store/data/res/layout/create__stop.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/create__stop__dialog.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/drivers.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/drivers__row.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/main.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/route.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/route__backup.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/row.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/row__backup.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/row__icons.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/signoff.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/summary.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/weight.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/weight__breakdown.xml.i
+* Homeplate Mobile/.hg/store/data/res/layout/welcome.xml.i
+* Homeplate Mobile/.hg/store/data/res/menu/
+* Homeplate Mobile/.hg/store/data/res/menu/ftp__sync.xml.i
+* Homeplate Mobile/.hg/store/data/res/menu/refresh.xml.i
+* Homeplate Mobile/.hg/store/data/res/raw/
+* Homeplate Mobile/.hg/store/data/res/raw/lion.mp3.d
+* Homeplate Mobile/.hg/store/data/res/raw/lion.mp3.i
+* Homeplate Mobile/.hg/store/data/res/raw/rooster.mp3.i
+* Homeplate Mobile/.hg/store/data/res/raw/squeal.mp3.i
+* Homeplate Mobile/.hg/store/data/res/values/
+* Homeplate Mobile/.hg/store/data/res/values/arrays.xml.i
+* Homeplate Mobile/.hg/store/data/res/values/strings.xml.i
+* Homeplate Mobile/.hg/store/data/res/values/style.xml.i
+* Homeplate Mobile/.hg/store/data/res/~2e_d_s___store.i
+* Homeplate Mobile/.hg/store/data/src/
+* Homeplate Mobile/.hg/store/data/src/org/
+* Homeplate Mobile/.hg/store/data/src/org/sh/
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/data/
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/data/_route.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/data/_stop.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_create_stop.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_driver_select.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_homeplate_mobile_activity.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_route_control.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_route_view.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_sign_off.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_summary.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_weight.java.i
+* Homeplate Mobile/.hg/store/data/src/org/sh/homeplate/mobile/_welcome.java.i
+* Homeplate Mobile/.hg/store/data/~2e_d_s___store.i
+* Homeplate Mobile/.hg/store/data/~2eclasspath.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/
+* Homeplate Mobile/.hg/store/data/~2emetadata/version.ini.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2elock.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2emylyn/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2emylyn/repositories.xml.zip.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2eroot/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2eroot/1.tree.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2eroot/~2eindexes/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2eroot/~2eindexes/history.version.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2eroot/~2eindexes/properties.index.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2eroot/~2eindexes/properties.version.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2esafetable/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.resources/~2esafetable/org.eclipse.core.resources.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/com.android.ide.eclipse.adt.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.core.resources.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.epp.usagedata.recording.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.jdt.ui.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.m2e.discovery.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.mylyn.context.core.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.mylyn.monitor.ui.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.team.cvs.ui.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.team.ui.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.ui.ide.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.ui.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.core.runtime/~2esettings/org.eclipse.ui.workbench.prefs.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.epp.usagedata.recording/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.epp.usagedata.recording/usagedata.csv.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.core/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.core/invalid_archives_cache.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.core/non_chaining_jars_cache.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.core/variables_and_containers.dat.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.ui/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.ui/_open_type_history.xml.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.ui/_qualified_type_name_history.xml.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.jdt.ui/dialog__settings.xml.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.m2e.logback.configuration/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.m2e.logback.configuration/logback.1.0.200.20111228-1245.xml.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.ui.workbench/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.ui.workbench/dialog__settings.xml.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.ui.workbench/workbench.xml.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.ui.workbench/workingsets.xml.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.wb.discovery.core/
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.wb.discovery.core/toolkit__gwt.png.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.wb.discovery.core/toolkit__swing.png.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.wb.discovery.core/toolkit__swt.png.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.wb.discovery.core/toolkit__xwt.png.i
+* Homeplate Mobile/.hg/store/data/~2emetadata/~2eplugins/org.eclipse.wb.discovery.core/toolkits.xml.i
+* Homeplate Mobile/.hg/store/data/~2eproject.i
+* Homeplate Mobile/.hg/store/fncache
+* Homeplate Mobile/.hg/store/phaseroots
+* Homeplate Mobile/.hg/store/undo
+* Homeplate Mobile/.hg/store/undo.phaseroots
+* Homeplate Mobile/.hg/thgstatus
+* Homeplate Mobile/.hg/undo.bookmarks
+* Homeplate Mobile/.hg/undo.branch
+* Homeplate Mobile/.hg/undo.desc
+* Homeplate Mobile/.hg/undo.dirstate
+* Homeplate Mobile/.metadata/
+* Homeplate Mobile/.metadata/.lock
+* Homeplate Mobile/.project
+* Homeplate Mobile/.settings/
+* Homeplate Mobile/.settings/org.eclipse.jdt.core.prefs
+* Homeplate Mobile/AndroidManifest.xml
+* Homeplate Mobile/bin/
+* Homeplate Mobile/bin/AndroidManifest.xml
+* Homeplate Mobile/bin/Homeplate Mobile.apk
+* Homeplate Mobile/bin/classes.dex
+* Homeplate Mobile/bin/classes/
+* Homeplate Mobile/bin/classes/org/
+* Homeplate Mobile/bin/classes/org/sh/
+* Homeplate Mobile/bin/classes/org/sh/homeplate/
+* Homeplate Mobile/bin/classes/org/sh/homeplate/data/
+* Homeplate Mobile/bin/classes/org/sh/homeplate/data/Client.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/data/Route.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/data/Stop.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/data/Volunteer.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/BuildConfig.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/CreateStop$1.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/CreateStop$2.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/CreateStop.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$1.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$2.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$3.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$4.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$5.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$Driver.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$DriverArrayAdapter$1.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$DriverArrayAdapter$2.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$DriverArrayAdapter$3.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$DriverArrayAdapter.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect$DriverViewHolder.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/DriverSelect.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$array.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$attr.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$drawable.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$id.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$layout.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$menu.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$raw.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$string.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R$style.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/R.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/RouteControl.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/RouteView$1.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/RouteView$2.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/RouteView$3.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/RouteView.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/SignOff.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/Summary.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/Weight.class
+* Homeplate Mobile/bin/classes/org/sh/homeplate/mobile/Welcome.class
+* Homeplate Mobile/bin/dexedLibs/
+* Homeplate Mobile/bin/dexedLibs/android-support-v4-7ec4730fa41d9722c5ba36c81a74cf13.jar
+* Homeplate Mobile/bin/dexedLibs/annotations-a9dfde6ea5155eafd30146c51fb5796c.jar
+* Homeplate Mobile/bin/jarlist.cache
+* Homeplate Mobile/bin/res/
+* Homeplate Mobile/bin/res/crunch/
+* Homeplate Mobile/bin/res/crunch/drawable-hdpi/
+* Homeplate Mobile/bin/res/crunch/drawable-hdpi/ic_launcher.png
+* Homeplate Mobile/bin/res/crunch/drawable-ldpi/
+* Homeplate Mobile/bin/res/crunch/drawable-ldpi/ic_launcher.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/down.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/homeplate.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/ic_launcher.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/pen.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/pencil.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/sync.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/sync2.png
+* Homeplate Mobile/bin/res/crunch/drawable-mdpi/up.png
+* Homeplate Mobile/bin/res/crunch/drawable-xhdpi/
+* Homeplate Mobile/bin/res/crunch/drawable-xhdpi/homeplate.png
+* Homeplate Mobile/bin/res/crunch/drawable-xhdpi/ic_launcher.png
+* Homeplate Mobile/bin/resources.ap_
+* Homeplate Mobile/gen/
+* Homeplate Mobile/gen/org/
+* Homeplate Mobile/gen/org/sh/
+* Homeplate Mobile/gen/org/sh/homeplate/
+* Homeplate Mobile/gen/org/sh/homeplate/mobile/
+* Homeplate Mobile/gen/org/sh/homeplate/mobile/BuildConfig.java
+* Homeplate Mobile/gen/org/sh/homeplate/mobile/R.java
+* Homeplate Mobile/libs/
+* Homeplate Mobile/libs/android-support-v4.jar
+* Homeplate Mobile/lint.xml
+* Homeplate Mobile/proguard-project.txt
+* Homeplate Mobile/project.properties
+* Homeplate Mobile/res/
+* Homeplate Mobile/res/.DS_Store
+* Homeplate Mobile/res/drawable-hdpi/
+* Homeplate Mobile/res/drawable-hdpi/ic_launcher.png
+* Homeplate Mobile/res/drawable-ldpi/
+* Homeplate Mobile/res/drawable-ldpi/ic_launcher.png
+* Homeplate Mobile/res/drawable-mdpi/
+* Homeplate Mobile/res/drawable-mdpi/border.xml
+* Homeplate Mobile/res/drawable-mdpi/bullet.xml
+* Homeplate Mobile/res/drawable-mdpi/down.png
+* Homeplate Mobile/res/drawable-mdpi/homeplate.png
+* Homeplate Mobile/res/drawable-mdpi/ic_launcher.png
+* Homeplate Mobile/res/drawable-mdpi/pen.png
+* Homeplate Mobile/res/drawable-mdpi/pencil.png
+* Homeplate Mobile/res/drawable-mdpi/pencil2.jpg
+* Homeplate Mobile/res/drawable-mdpi/sync.png
+* Homeplate Mobile/res/drawable-mdpi/sync2.png
+* Homeplate Mobile/res/drawable-mdpi/up.png
+* Homeplate Mobile/res/drawable-xhdpi/
+* Homeplate Mobile/res/drawable-xhdpi/.DS_Store
+* Homeplate Mobile/res/drawable-xhdpi/homeplate.png
+* Homeplate Mobile/res/drawable-xhdpi/ic_launcher.png
+* Homeplate Mobile/res/drawable/
+* Homeplate Mobile/res/drawable/button.xml
+* Homeplate Mobile/res/drawable/button_pressed.xml
+* Homeplate Mobile/res/drawable/button_selector.xml
+* Homeplate Mobile/res/layout-land/
+* Homeplate Mobile/res/layout-land/drivers.xml
+* Homeplate Mobile/res/layout-land/route.xml
+* Homeplate Mobile/res/layout-land/row.xml
+* Homeplate Mobile/res/layout-land/row_backup.xml
+* Homeplate Mobile/res/layout-land/summary.xml
+* Homeplate Mobile/res/layout-land/weight_breakdown.xml
+* Homeplate Mobile/res/layout/
+* Homeplate Mobile/res/layout/create_stop.xml
+* Homeplate Mobile/res/layout/create_stop_dialog.xml
+* Homeplate Mobile/res/layout/drivers.xml
+* Homeplate Mobile/res/layout/drivers_other_dialog.xml
+* Homeplate Mobile/res/layout/drivers_row.xml
+* Homeplate Mobile/res/layout/route.xml
+* Homeplate Mobile/res/layout/route_backup.xml
+* Homeplate Mobile/res/layout/row.xml
+* Homeplate Mobile/res/layout/row_backup.xml
+* Homeplate Mobile/res/layout/row_icons.xml
+* Homeplate Mobile/res/layout/signoff.xml
+* Homeplate Mobile/res/layout/summary.xml
+* Homeplate Mobile/res/layout/weight.xml
+* Homeplate Mobile/res/layout/weight_breakdown.xml
+* Homeplate Mobile/res/layout/welcome.xml
+* Homeplate Mobile/res/menu/
+* Homeplate Mobile/res/menu/ftp_sync.xml
+* Homeplate Mobile/res/menu/refresh.xml
+* Homeplate Mobile/res/raw/
+* Homeplate Mobile/res/raw/lion.mp3
+* Homeplate Mobile/res/raw/rooster.mp3
+* Homeplate Mobile/res/raw/squeal.mp3
+* Homeplate Mobile/res/values/
+* Homeplate Mobile/res/values/arrays.xml
+* Homeplate Mobile/res/values/strings.xml
+* Homeplate Mobile/res/values/style.xml
+* Homeplate Mobile/src/
+* Homeplate Mobile/src/org/
+* Homeplate Mobile/src/org/sh/
+* Homeplate Mobile/src/org/sh/homeplate/
+* Homeplate Mobile/src/org/sh/homeplate/data/
+* Homeplate Mobile/src/org/sh/homeplate/data/Client.java
+* Homeplate Mobile/src/org/sh/homeplate/data/Route.java
+* Homeplate Mobile/src/org/sh/homeplate/data/Stop.java
+* Homeplate Mobile/src/org/sh/homeplate/data/Volunteer.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/
+* Homeplate Mobile/src/org/sh/homeplate/mobile/CreateStop.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/DriverSelect.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/RouteControl.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/RouteView.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/SignOff.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/Summary.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/Weight.java
+* Homeplate Mobile/src/org/sh/homeplate/mobile/Welcome.java
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

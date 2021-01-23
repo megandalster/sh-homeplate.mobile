@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_up.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/up.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_create_stop_dialog.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/create_stop_dialog.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/raw_lion.mp3.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/raw/lion.mp3"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_drivers_other_dialog.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/drivers_other_dialog.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_down.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/down.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_row_icons.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/row_icons.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_welcome.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/welcome.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_weight_breakdown.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/weight_breakdown.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land_row_backup.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout-land/row_backup.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_row_backup.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/row_backup.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_drivers.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/drivers.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_sync2.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/sync2.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-xhdpi_homeplate.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-xhdpi/homeplate.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/menu_refresh.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/menu/refresh.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land_row.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout-land/row.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_pencil2.jpg.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/pencil2.jpg"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_bullet.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/bullet.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_sync.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/sync.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/menu_ftp_sync.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/menu/ftp_sync.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable_button_selector.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable/button_selector.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable_button.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable/button.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable_button_pressed.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable/button_pressed.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land_route.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout-land/route.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_route.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/route.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land_summary.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout-land/summary.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_drivers_row.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/drivers_row.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_create_stop.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/create_stop.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_route_backup.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/route_backup.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_homeplate.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/homeplate.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_weight.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/weight.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_pen.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/pen.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land_drivers.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout-land/drivers.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_pencil.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/pencil.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_row.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/row.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_summary.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/summary.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_border.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/border.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/raw_rooster.mp3.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/raw/rooster.mp3"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/raw_squeal.mp3.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/raw/squeal.mp3"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout_signoff.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout/signoff.xml"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/build/intermediates/res/merged/debug/layout-land_weight_breakdown.xml.flat",
+        "source": "/Users/allentucker/AndroidStudioProjects/HomePlateMigrated/app/src/main/res/layout-land/weight_breakdown.xml"
+    }
+]

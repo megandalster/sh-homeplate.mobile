@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="40dp" >
+
+    <TextView
+        android:id="@+id/route_hint_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/route_hint"
+        android:textSize="36dp" />
+
+    <ListView
+        android:id="@+id/route_list"
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:fadeScrollbars="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            style="@style/buttonGlow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/scroll_up"
+            android:onClick="scrollUp"
+            android:scaleType="centerInside"
+            android:src="@drawable/up" />
+
+        <ImageButton
+            style="@style/buttonGlow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/scroll_down"
+            android:maxHeight="50dp"
+            android:onClick="scrollDown"
+            android:scaleType="centerInside"
+            android:src="@drawable/down" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="weightConfirm"
+            android:padding="20dp"
+            android:text="@string/unlisted_stop_button"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/mode_swap_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="swapMode"
+            android:padding="20dp"
+            android:text="@string/pickups_to_dropoffs"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/route_finish_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FF0000AF"
+        android:ems="12"
+        android:onClick="finishRoute"
+        android:padding="20dp"
+        android:text="@string/route_finish"
+        android:textColor="#FFFFFFFF"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="2dip"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:background="#FF00FF00" />
+
+        <TextView
+            android:id="@+id/total_weight_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/total_weight"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/helper_weight_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/total_weight"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

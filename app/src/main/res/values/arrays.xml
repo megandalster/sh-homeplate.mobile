@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="area_array">
+        <item>@string/area_hhi</item>
+        <item>@string/area_sun</item>
+        <item>@string/area_bft</item>
+    </string-array>
+
+</resources>
